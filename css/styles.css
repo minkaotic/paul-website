@@ -1,0 +1,43 @@
+
+/* ------- Fonts --------------------- */
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* @media all and (min-width: 900px) {
+} */
+
+/* ------- Main Styles --------------------- */
+
+body {
+  background-color: #8301E8;
+  box-sizing: border-box;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 30px;
+}
+
+.section-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tile {
+  background-color: pink;
+  margin: 20px;
+  box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+}
+
+.tile, .tile img {
+  height: 200px;
+  width: 200px;
+  border-radius: 2px;
+}
+
+
+/* ------- Tile Animations --------------------- */
+/* https://codepen.io/chrisdothtml/pen/OVmgwK?editors=0100 */
