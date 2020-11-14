@@ -17,6 +17,12 @@ body {
   margin: 20px 20px;
 }
 
+.headline {
+  color: darkslategrey;
+  text-shadow: 5px 3px 3px cyan;
+  margin-top: 30px;
+}
+
 .section-headline {
   color: darkslategrey;
   text-shadow: 5px 3px 3px cadetblue;
@@ -42,6 +48,10 @@ body {
 @media all and (min-width: 900px) {
   .main-wrapper {
     margin: 30px 100px 100px;
+  }
+
+  .headline {
+    font-size: 60px;
   }
 
   .section-headline {
