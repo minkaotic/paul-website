@@ -5,20 +5,23 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-/* @media all and (min-width: 900px) {
-} */
-
 /* ------- Main Styles --------------------- */
 
 body {
-  background-color: #8301E8;
+  background-color: #dff2f1;
   box-sizing: border-box;
 }
 
 .main-wrapper {
   display: flex;
   flex-direction: column;
-  margin: 20px 30px;
+  margin: 20px 20px;
+}
+
+.section-headline {
+  color: darkslategrey;
+  text-shadow: 5px 3px 3px cadetblue;
+  margin-top: 30px;
 }
 
 .tiles {
@@ -26,16 +29,35 @@ body {
   flex-wrap: wrap;
 }
 
-.tile {
+.tile, .hero {
   background-color: pink;
   margin: 20px;
-  box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+  box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, .2);
 }
 
-.tile, .tile img {
-  height: 200px;
-  width: 200px;
+.tile, .tile img, .hero, .hero img {
+  height: 120px;
+  width: 120px;
   border-radius: 3px;
+}
+
+@media all and (min-width: 900px) {
+  .main-wrapper {
+    margin: 30px 100px 100px;
+  }
+
+  .section-headline {
+    margin-top: 60px;
+  }
+
+  .tile, .hero {
+    margin: 30px;
+  }
+
+  .tile, .tile img, .hero, .hero img {
+    height: 200px;
+    width: 200px;
+  }
 }
 
 /* ------- Tile Animations --------------------- */
